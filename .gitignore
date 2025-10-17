@@ -1,0 +1,41 @@
+# Large model files (will upload directly to Hugging Face)
+*.pth
+*.pt
+*.bin
+*.ckpt
+
+# Dataset files
+*.csv
+tiny_stories.txt
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb_checkpoints
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Personal notes (optional)
+PORTFOLIO_INTEGRATION.md
+DEPLOYMENT_GUIDE.md
+
+# Microsoft Word
+*.docx
+~$*.docx
