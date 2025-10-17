@@ -260,9 +260,11 @@ model.to(device)
 model.eval()
 
 # Load sentiment classifier
-classifier = SentimentClassifier(embedding_dim=QWEN3_CONFIG['emb_dim'], num_classes=2).to(device)
-# Note: You'll need to save and load classifier weights separately
-# For now, assuming you'll add this to your checkpoint
+classifier = SentimentClassifier(embedding_dim=QWEN3_CONFIG['emb_dim'], num_classes=2)
+classifier_checkpoint = torch.load("sentiment_classifier.pth", map_location=device)
+classifier.load_state_dict(classifier_checkpoint['classifier_state_dict'])
+classifier.to(device)
+classifier.eval()
 
 print("Models loaded successfully!")
 
