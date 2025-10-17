@@ -145,9 +145,9 @@ The Qwen3 architecture implementation is inspired by:
 
 ## 🔗 Links
 
-- **Live Demo**: [Hugging Face Space](https://huggingface.co/spaces/YOUR_USERNAME/qwen3-small-demo)
-- **Portfolio**: [Your Portfolio](https://yourportfolio.vercel.app)
-- **LinkedIn**: [Your LinkedIn](https://linkedin.com/in/yourprofile)
+- **Live Demo**: [Hugging Face Space](https://huggingface.co/spaces/Tskunz/qwen3-small-demo)
+- **Portfolio**: [Your Portfolio](https://tkunzai.vercel.app/)
+- **LinkedIn**: [Your LinkedIn](https://www.linkedin.com/in/trevor-kunz/)
 
 ## ⚖️ License
 
